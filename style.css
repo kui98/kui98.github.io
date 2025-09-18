@@ -41,3 +41,16 @@ nav a + a::before {
   font-weight: bold;
   font-size: 1.2em;
 }
+
+.food-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;          /* space between images */
+  margin-top: 15px;
+}
+
+.food-gallery img {
+  width: 200px;       /* size of images */
+  height: auto;
+  border-radius: 5px; /* slightly rounded corners */
+}
