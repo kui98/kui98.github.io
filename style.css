@@ -32,9 +32,21 @@ nav a + a::before {
 }
 
 .projects .project {
-  margin-bottom: 60px;  /* space between projects */
-  line-height: 1.8;     /* better readability */
+  margin-bottom: 60px;   /* space between project blocks */
+  line-height: 1.8;      /* more breathable text */
 }
+
+.projects .project strong {
+  display: block;        /* pushes title onto its own line */
+  font-size: 1.2em;      /* make it a little bigger */
+  margin-bottom: 10px;   /* space below title */
+}
+
+.projects .project a {
+  display: inline-block; /* makes link behave like a button-ish line */
+  margin-top: 8px;       /* space above link */
+}
+
 
 
 .header {
