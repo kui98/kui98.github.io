@@ -17,3 +17,15 @@ hr {
 nav a + a::before {
   content: " | ";
 }
+
+.projects li {
+  font-size: 1.1em;        /* slightly larger text */
+  line-height: 1.5;        /* space between lines */
+  margin-bottom: 20px;     /* space between each project */
+}
+
+.projects li strong {
+  font-size: 1.2em;        /* larger project titles */
+  display: block;
+  margin-bottom: 5px;      /* small gap below title */
+}
