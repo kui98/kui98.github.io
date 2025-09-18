@@ -13,3 +13,7 @@ nav a {
 hr {
   margin: 15px 0;
 }
+
+nav a + a::before {
+  content: " | ";
+}
