@@ -30,6 +30,12 @@ nav a + a::before {
   margin-bottom: 5px;      /* small gap below title */
 }
 
+.projects .project {
+  margin-bottom: 20px;  /* space between projects */
+  line-height: 1.5;     /* better readability */
+}
+
+
 .header {
   display: flex;
   align-items: center;
@@ -53,4 +59,22 @@ nav a + a::before {
   width: 200px;       /* size of images */
   height: auto;
   border-radius: 5px; /* slightly rounded corners */
+}
+
+.left-img {
+  display: block;
+  margin-left: 0;       /* aligns left */
+  margin-right: auto;
+  width: 200px;         /* adjust size */
+  height: auto;
+  margin-bottom: 20px;  /* space below first image */
+}
+
+.right-img {
+  display: block;
+  margin-left: auto;    /* aligns right */
+  margin-right: 0;
+  width: 200px;         /* adjust size */
+  height: auto;
+  margin-top: 20px;     /* space above second image */
 }
