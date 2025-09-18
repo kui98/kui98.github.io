@@ -29,3 +29,15 @@ nav a + a::before {
   display: block;
   margin-bottom: 5px;      /* small gap below title */
 }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* name on left, nav on right */
+  margin-bottom: 20px;
+}
+
+.header .name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
