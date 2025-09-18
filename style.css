@@ -1,8 +1,9 @@
 body {
-  font-family: monospace; /* or 'Times New Roman' for retro look */
+  font-family: Arial; /* or 'Times New Roman' for retro look */
   max-width: 700px;
   margin: auto;
   padding: 20px;
+  line-height: 1.6;
 }
 
 nav a {
